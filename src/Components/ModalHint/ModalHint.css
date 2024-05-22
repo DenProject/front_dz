@@ -1,0 +1,11 @@
+.modal-hint{
+    border-radius: 30px;
+    background-color: #0066b1;
+    font-weight: 800;
+    border-color:#fff773;
+    color:#ffe1ba;
+}
+
+.modal-hint form{
+    text-align: center;
+}

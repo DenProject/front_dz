@@ -1,0 +1,44 @@
+h1{
+    font-weight: 800;
+    color: #fff773;
+    margin-bottom: 50px;
+}
+.list-books{
+    display: flex;
+    justify-content: space-around;    
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+.list-books li{
+    text-align: center;
+    font-weight: 500;
+    color: #ffe1ba;
+    background-color: #0b89d5;
+    border: solid;
+    width: 240px;
+    border-radius: 30px;
+    border-color: #fff773;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.list-books img{
+    height: 340px;
+    width: 240px;
+    border-radius: 28px;
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:0;
+}
+
+.list-books > li > div> p{
+   overflow: auto;
+   white-space: nowrap;
+   margin-top: 0;
+   margin-bottom: 10px;
+   scrollbar-width: none;
+   padding-left: 10px;
+   padding-right: 10px;
+}

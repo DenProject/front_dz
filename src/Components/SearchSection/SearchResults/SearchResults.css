@@ -1,0 +1,18 @@
+ul{
+    list-style: none;
+}
+.messageOnEntry{
+    text-align: center;
+    font-weight: 800;
+    color: #ffe1ba;;
+}
+
+.list-search{
+    flex:2;
+}
+
+
+.list-books.listtwo{
+    justify-content: center;
+    margin-top: 0;
+}

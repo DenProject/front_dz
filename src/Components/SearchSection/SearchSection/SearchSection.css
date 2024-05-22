@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+}
+
+.panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hint{
+    width: 30px;
+}
